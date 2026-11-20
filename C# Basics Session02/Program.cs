@@ -16,21 +16,51 @@
             // 1- Create a Book class with a Title (string) and Pages (int).
             // Create a Book object and store it in a variable of type object. Print it.
 
-            Book book = new Book
+            //Book book = new Book
+            //{
+            //    Title = "Name",
+            //    Pages = 100
+            //};
+
+            //object obj = book;
+
+            //Console.WriteLine(obj);
+
+
+            #endregion
+
+            #region Question 2
+            //// Using the Book class above, print the result of calling ToString(),
+            //// Equals() (compare book with
+            ////itself), GetHashCode(), and GetType() on book.
+
+            Book book1 = new Book
             {
                 Title = "Name",
                 Pages = 100
             };
 
-            object obj = book;
+            Book book2 = new Book
+            {
+                Title = "Namee",
+                Pages = 1000
+            };
 
-            Console.WriteLine(obj);
+            object obj1 = book1;
+            object obj2 = book2;
 
+            Console.WriteLine(book1.ToString());
+            Console.WriteLine(book1.Equals(book2));
 
-            #endregion
+            Console.WriteLine(book1.GetHashCode());
+            Console.WriteLine(book2.GetHashCode());
 
-
+            Console.WriteLine(book1.GetType());
 
         }
+
+        #endregion
+
     }
+    
 }
