@@ -34,32 +34,48 @@
             //// Equals() (compare book with
             ////itself), GetHashCode(), and GetType() on book.
 
-            Book book1 = new Book
-            {
-                Title = "Name",
-                Pages = 100
-            };
+            //Book book1 = new Book
+            //{
+            //    Title = "Name",
+            //    Pages = 100
+            //};
 
-            Book book2 = new Book
-            {
-                Title = "Namee",
-                Pages = 1000
-            };
+            //Book book2 = new Book
+            //{
+            //    Title = "Namee",
+            //    Pages = 1000
+            //};
 
-            object obj1 = book1;
-            object obj2 = book2;
+            //object obj1 = book1;
+            //object obj2 = book2;
 
-            Console.WriteLine(book1.ToString());
-            Console.WriteLine(book1.Equals(book2));
+            //Console.WriteLine(book1.ToString());
+            //Console.WriteLine(book1.Equals(book2));
 
-            Console.WriteLine(book1.GetHashCode());
-            Console.WriteLine(book2.GetHashCode());
+            //Console.WriteLine(book1.GetHashCode());
+            //Console.WriteLine(book2.GetHashCode());
 
-            Console.WriteLine(book1.GetType());
+            //Console.WriteLine(book1.GetType());
+
+            #endregion
+
+            #region Question 3
+            //Look at the line below.Is it a compile-time error, a runtime error, or a logical error? Fix it.
+            //int pages = "464";
+
+            //sytax error
+
+            int pages = 464;
+
+
+            #endregion
+
 
         }
 
-        #endregion
+
+
+
 
     }
     
