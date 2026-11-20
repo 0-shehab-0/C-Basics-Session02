@@ -75,20 +75,32 @@
             //zero", and then prints "Done" in a finally block
 
 
-            try
-            {
-                int result = 10 / 0;
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //try
+            //{
+            //    int result = 10 / 0;
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
 
             #endregion
+
+            #region Quistion 5
+            //Declare an int pages = 300; then store it in a double variable without using a cast
+
+            int pages = 30;
+
+            double num = pages;
+
+            Console.WriteLine(num);
+
+            #endregion
+
 
 
         }
