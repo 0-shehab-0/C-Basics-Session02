@@ -104,14 +104,24 @@
             #region Quistion 6
             //Declare a double price = 49.99; then convert it into an int using a cast.
 
-            double price = 49.99;
+            //double price = 49.99;
 
-            int numb = (int)price;
+            //int numb = (int)price;
 
-            Console.WriteLine(numb);
+            //Console.WriteLine(numb);
 
             #endregion
 
+            #region Quistion 7
+            //  Given string pagesText = "464";, convert it into an int using the Convert class.
+
+            string pagesText = "464";
+
+            int pages = Convert.ToInt32(pagesText);
+
+            Console.WriteLine(pages);
+
+            #endregion
 
 
 
